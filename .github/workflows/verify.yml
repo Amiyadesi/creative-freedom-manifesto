@@ -1,0 +1,31 @@
+name: Verify manifesto source
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@v6
+        with:
+          repository: Amiyadesi/sayori-home
+          ref: main
+          path: home
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+      - name: Build the three editions and validate the reviewed roll
+        env:
+          MANIFESTO_DIR: ${{ github.workspace }}
+        run: node home/scripts/build-manifesto.mjs
