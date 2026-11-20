@@ -12,8 +12,8 @@ A pledge by **Amiya_desi** and **栖弦 (Lyra)**, an AI creative partner: *I hav
 | 繁體中文 | [宣言](https://sayori.org/zh-hant/manifesto/) | [譯文](manifesto.zh-Hant.md) |
 | English | [Manifesto](https://sayori.org/en/manifesto/) | [Translation](manifesto.en.md) |
 
-在网站上写下昵称，就能在本地宣誓，无需账号，昵称不会上传。想展示昵称和 GitHub 账号，可[申请加入公开名册](https://github.com/Amiyadesi/creative-freedom-manifesto/issues/new?template=creative-manifesto-signature.yml)。Issue 对所有人可见，名册由维护者人工审核。[申请撤下公开署名](https://github.com/Amiyadesi/creative-freedom-manifesto/issues/new?template=withdraw-signature.yml)。
+在网站上写下昵称，就能在本地宣誓，昵称不会上传。也可以在[公开名册](https://sayori.org/manifesto/#roster-title)下填写昵称、同意公开并提交，不用注册。申请由维护者私下审核；请保存提交后取得的撤名码。
 
-Take the oath privately on the website, or [apply to sign publicly](https://github.com/Amiyadesi/creative-freedom-manifesto/issues/new?template=creative-manifesto-signature.yml). Applications are public and reviewed before they reach the [roll](signers.json). [Request removal](https://github.com/Amiyadesi/creative-freedom-manifesto/issues/new?template=withdraw-signature.yml) at any time.
+Take the oath privately on the website, or [apply to sign publicly](https://sayori.org/en/manifesto/#roster-title) with a nickname. No account needed. Applications are reviewed privately. Keep your removal code if you ever want to take your name off the [roll](signers.json).
 
 欢迎提议修订或帮助改进翻译。参见[贡献指南](CONTRIBUTING.md)和[版本记录](CHANGELOG.md)。主站代码在 [sayori-home](https://github.com/Amiyadesi/sayori-home)。

@@ -8,12 +8,17 @@ Propose a wording change in an issue or PR. Explain what it changes, and keep th
 
 ## 人工审核 · Reviewing signatures
 
-1. 从 Issue 的**作者账号**取 GitHub 用户名，不采用正文自报的账号；确认本人明确同意。只接受每个 GitHub 账号一条。昵称不能冒充起草者、与已有昵称相同或包含联系方式、控制字符、链接或标记语法。
-2. 维护者只把核准后的昵称、GitHub 用户名和加入日期写入 signers.json；普通署名不写 role，按加入日期追加。不得从 Issue 抓取正文，也不要把其他个人信息写入名册。更新 updated 日期。
-3. 申请撤下后，核对 Issue 作者与名册账号一致，移除对应条目。说明网站会更新，原 Issue 和 Git 历史仍可能保留。名册许可仅用于共同维护与展示公开署名。
-4. 主站构建读取本仓库 main。定时同步；需要立即更新时，从 sayori-home 的 Actions 手动运行主站部署。
+读者在[宣言页](https://sayori.org/manifesto/#roster-title)填昵称并同意公开即可申请，无需 GitHub 账号。撤回申请或署名，请在同一页面使用提交时取得的撤名码。
 
-Review the issue author and consent before editing the roll. Keep one entry per account, in approval-date order. Publish only the approved nickname, GitHub profile and join date; never ingest issue bodies. On withdrawal, remove the account from the current roll. Public issue and Git histories may persist.
+维护者在 Cloudflare 的私有待审队列处理新增和撤名，按[主站审核手册](https://github.com/Amiyadesi/sayori-home/blob/main/docs/manifesto-signers.md)操作。这个仓库只维护审核后的名册：
+
+1. 确认本人同意公开。昵称不能冒充他人，也不能与现有署名混淆或包含联系方式、控制字符、链接、标记语法。
+2. 普通署名只写核准后的昵称 `name` 和加入日期 `joined`；不写 `role` 或 `github`。既有 GitHub 署名可保留其资料链接。按加入日期追加，更新 `updated`。
+3. 处理凭撤名码提交的申请后，从当前名册移除对应条目。不要把撤名码、申请原始数据或其他私人信息写进 Git。Git 历史可能仍保留原有公开条目。
+4. 主站定时同步本仓库的 main；也可手动触发主站工作流。
+
+Apply or request removal on the [manifesto page](https://sayori.org/en/manifesto/#roster-title); no account needed. Moderators use the [private queue and publishing procedure](https://github.com/Amiyadesi/sayori-home/blob/main/docs/manifesto-signers.md). Commit only the approved nickname and join date; never commit application data or removal codes. Past Git revisions may retain previously public entries.
+
 
 ## 版权 · Reuse
 
