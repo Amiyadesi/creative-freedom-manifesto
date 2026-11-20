@@ -1,0 +1,16 @@
+name: "撤下署名 / Withdraw a signature"
+description: "从当前公开名册移除你的署名 / Remove your signature from the current roll"
+title: "[Withdrawal] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请使用当初申请时的 GitHub 账号。这个 Issue 对所有人可见，请勿填写其他个人信息。撤下后，旧 Issue 及 Git 历史可能仍然存在。
+        Use the same GitHub account that applied. This issue is public; do not add any other personal information. Original issues and Git history may still exist after removal.
+  - type: checkboxes
+    id: withdrawal
+    attributes:
+      label: "撤下确认 / Confirmation"
+      options:
+        - label: "请移除我的署名 / Please remove my signature from the current roll."
+          required: true
